@@ -1,3 +1,21 @@
+* {
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  background-color: #f5f5f5;
+  color: #464646;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0px;
+}
+
+ul > li {
+  list-style: none;
+}
+
 .homepage #catAbb,
 .homepage #go,
 .homepage .leftlinks #cl_app_beta,
