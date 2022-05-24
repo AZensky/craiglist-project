@@ -63,6 +63,23 @@ footer {
   text-align: center;
 }
 
+ul.clfooter {
+  text-align: center;
+  border-top: 1px solid grey;
+  padding: 10px 0px;
+}
+
+ul.clfooter > li {
+  display: inline;
+  padding-right: 5px;
+}
+
+h4.ban::before {
+  content: "☮";
+  color: #800080;
+}
+
+
 .homepage #catAbb,
 .homepage #go,
 .homepage .leftlinks #cl_app_beta,
