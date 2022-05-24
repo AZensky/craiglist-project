@@ -27,7 +27,41 @@ a > span {
   color: #800080;
 }
 
+.page-container {
+  max-width: 1200px;
+}
 
+#leftbar,
+#center,
+#rightbar {
+  float: left;
+  padding: 0px 30px;
+  box-sizing: border-box;
+}
+
+footer {
+  clear: both;
+}
+
+#leftbar,
+#rightbar {
+  width: 25%;
+  border: 1px solid #464646;
+  border-radius: 10px;
+}
+
+#center {
+  width: 50%;
+}
+
+#center > div {
+  float: left;
+  width: 33%;
+}
+
+#topban h2 {
+  text-align: center;
+}
 
 .homepage #catAbb,
 .homepage #go,
